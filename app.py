@@ -18,4 +18,4 @@ def test():
 
 if __name__ == '__main__':
     # Jalankan app Flask pada host 0.0.0.0 (akses dari luar) di port 80 (untuk Azure App Service)
-    app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', port=8000)
